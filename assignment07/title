@@ -1,0 +1,7 @@
+7.AVL tree - string_avl
+<setting> 
+#define SHOW_STEP 0
+#define BALANCING 1
+
+[Excution] 
+./stravlt words_ordered.txt
