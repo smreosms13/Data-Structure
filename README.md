@@ -1,5 +1,5 @@
 # Data-Structure
-KU - Data Structure Implementation in C 
+Data Structure Implementation in C 
 
 <contents>
 
