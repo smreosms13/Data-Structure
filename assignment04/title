@@ -1,0 +1,12 @@
+4.Binary expession tree
+
+<program process>
+1. 사용자로부터 후위표기식(postfix expression)을 입력받는다. 
+(단, 수식은 한자리 수(digit)와 사칙 연산(+, -, *, /)의 조합으로만 이루어져야 함. 연산자는 모두 이진(binary) 연산자라고 가정함
+ex) 중위표기식 (1+2)*(5-3)의 후위표기식은 12+53-*임)
+2. 후위표기식으로부터 수식트리(expression tree)를 만든다.
+3. 수식트리로부터 중위표기식(infix expression)을 출력한다.
+4. 수식트리를 화면에 출력한다.
+5. 후위표기식의 값을 계산하여 출력한다.
+
+[Excution] ./expression_tree
