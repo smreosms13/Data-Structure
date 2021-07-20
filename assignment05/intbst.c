@@ -30,7 +30,7 @@ void printTree( TREE *pTree);
 
 /* Allocates dynamic memory for a tree head node and returns its address to caller
 	return	head node pointer
-			NULL if overflow
+		NULL if overflow
 */
 TREE *BST_Create( void)
 {
@@ -60,7 +60,7 @@ static void _destroy( NODE *root)
 }
 /* Inserts new data into the tree
 	return	1 success
-			0 overflow
+		0 overflow
 */
 int BST_Insert( TREE *pTree, int data)
 {
@@ -108,7 +108,7 @@ NODE *_makeNode( int data)
 }
 /* Deletes a node with dltKey from the tree
 	return	1 success
-			0 not found
+		0 not found
 */
 int BST_Delete( TREE *pTree, int dltKey)
 {
@@ -185,7 +185,7 @@ static NODE *_delete( NODE *root, int dltKey, int *success)
 
 /* Retrieve tree for the node containing the requested key
 	return	address of data of the node containing the key
-			NULL not found
+		NULL not found
 */
 int *BST_Retrieve( TREE *pTree, int key)
 {
@@ -197,7 +197,7 @@ int *BST_Retrieve( TREE *pTree, int key)
 /* internal function
 	Retrieve node containing the requested key
 	return	address of the node containing the key
-			NULL not found
+		NULL not found
 */
 static NODE *_retrieve( NODE *root, int key)
 {
