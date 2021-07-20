@@ -1,0 +1,5 @@
+8.Trie - trie / premuterm_trie
+need to implement the fuction for wildcard search
+[Excution] 
+trie : $ ./trie words_ordered.txt
+permuter_trie : $ ./permuterm_trie words_ordered.txt
