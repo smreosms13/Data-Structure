@@ -1,0 +1,6 @@
+6.Heap - int_heap/ADT_heap
+!int_heap - empty!
+
+[Excution] 
+integer type : ./intheap 
+abstract type : ./adttheap
